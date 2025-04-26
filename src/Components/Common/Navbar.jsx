@@ -16,7 +16,7 @@ const Navbar = () => {
             <li><NavLink to=''>Destination</NavLink></li>
             <li><NavLink to=''>Blog</NavLink></li>
             <li><NavLink to=''>
-                <button className='px-4 py-1 border-[1px] border-black rounded-xl'>
+                <button className='px-4 py-1 border-[1px] border-white rounded-xl'>
                     Log in
                 </button>
                 </NavLink></li>
