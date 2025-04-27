@@ -11,9 +11,9 @@ const BestDestination = () => {
                 <p>Find your perfect escape among the world’s most stunning destinations. Adventure, relaxation, and unforgettable memories await you</p>
             </div>
 
-            <div className="grid md:grid-cols-3 grid-cols-1">
+            <div className="flex justify-between flex-col md:flex-row">
 
-                <div className="card bg-base-100 w-96 shadow-sm space-y-3">
+                <div className="card bg-base-100 w-96 shadow-sm shadow-yellow-200 space-y-3">
                     <figure>
                         <img
                             src={taj}
@@ -29,7 +29,7 @@ const BestDestination = () => {
                     </div>
                 </div>
 
-                <div className="card bg-base-100 w-96 shadow-sm space-y-3">
+                <div className="card bg-base-100 w-96 shadow-sm shadow-yellow-200 space-y-3">
                     <figure>
                         <img
                             src={nepal}
@@ -45,7 +45,7 @@ const BestDestination = () => {
                     </div>
                 </div>
 
-                <div className="card bg-base-100 w-96 shadow-sm space-y-3">
+                <div className="card bg-base-100 w-96 shadow-sm shadow-yellow-200 space-y-3">
                     <figure>
                         <img
                             src={dome}
