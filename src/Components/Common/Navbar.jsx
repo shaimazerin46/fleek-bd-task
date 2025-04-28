@@ -3,10 +3,11 @@ import navLogo from '../../assets/logo/logo.png'
 
 const Navbar = () => {
     return (
-        <div className="flex fixed top-0 justify-between items-center max-w-7xl bg-transparent transform left-1/2 -translate-x-1/2 w-full">
+        <div className=" bg-black/20 z-10 fixed top-0  w-full">
             {/* logo */}
-           <div>
-                <img src={navLogo} alt="" className='h-20 w-20'/>
+         <div className='flex justify-between items-center py-3 max-w-7xl mx-auto'>
+         <div>
+                <img src={navLogo} alt="" className='h-15 w-15'/>
            </div>
            <div>
             <ul className='flex gap-8 items-center text-white'>
@@ -15,7 +16,7 @@ const Navbar = () => {
             <li><NavLink to=''>Browes Tips</NavLink></li>
             <li><NavLink to=''>Destination</NavLink></li>
             <li><NavLink to=''>Blog</NavLink></li>
-            <li><NavLink to=''>
+            <li><NavLink to='/login'>
                 <button className='px-4 py-1 border-[1px] border-white rounded-xl'>
                     Log in
                 </button>
@@ -27,6 +28,7 @@ const Navbar = () => {
                 </NavLink></li>
             </ul>
            </div>
+         </div>
         </div>
     );
 };

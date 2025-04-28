@@ -13,7 +13,7 @@ const CustomerSays = () => {
                 <div className="space-y-5">
                     <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel obcaecati sapiente accusantium debitis adipisci sunt dicta totam nam in nisi est quis fugiat reprehenderit dolore quisquam reiciendis consectetur quod, nulla rem distinctio? Inventore, maiores. Ipsa, soluta suscipit. Atque repellendus facilis inventore! Nesciunt ea id earum amet, corrupti doloribus eos minus! Atque repellendus facilis inventore! Nesciunt ea id earum amet, corrupti doloribus eos minus! Atque repellendus facilis inventore! Nesciunt ea id earum amet, corrupti doloribus eos minus!</p>
                     <button className='px-5 py-2 text-white font-bold bg-yellow-400 rounded-xl'>
-                   Lorem ipsum button.
+                   Lorem ipsum button
             </button>
                 </div>
 
